@@ -1,9 +1,21 @@
 import UIKit
 
+/*
+Example applications:
+ - Core object is (or will be) deprecated and needs a wrapper to provide new functionality and replace it in the system
+ - Core object cannot or should not be modified directly
+ - Avoid modifying legacy code (or third party frameworks) that are prone to breakage
+ - Avoid modifying classes marked final as there may be underlying reasons why it should not be subclassed
+ 
+ Pros:
+ - Decorators share a base type with core objects, making them indistinguishable (and interchangeable) in our system. This allows usage without breaking client-side code.
+ - Multiple decorators can be applied to create a complex chain of behaviors.
+ */
+
 enum Currency: String {
     case usd, euro, thb
 }
-// Core Component
+// Core object
 final class Payment: Payable {
     private let amount: Int
     private let currency: Currency

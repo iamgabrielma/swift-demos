@@ -1,6 +1,10 @@
 # swift-demos
 Collection of Swift bits of code and demos
 
+### Decorator Pattern
+
+Dynamically modifies the behavior of a core object without changing its existing class definition. It changes how objects work during run-time.
+
 ### Observer Pattern
 `swiftui-view-viewmodel-states`
 
