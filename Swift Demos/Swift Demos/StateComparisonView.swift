@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StateComparisonView: View {
     @State private(set) var viewID = UUID()
     @StateObject private var stateObject = TestObject()
     @ObservedObject private var observedObject = TestObject()
@@ -47,5 +47,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StateComparisonView()
 }
