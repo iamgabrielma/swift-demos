@@ -7,11 +7,23 @@
 
 import SwiftUI
 
+enum Demo {
+    case stateComparison
+    case taskExecution
+}
+
 @main
 struct Swift_DemosApp: App {
+    private let demo: Demo = .taskExecution
+    
     var body: some Scene {
         WindowGroup {
-            TaskExecutionView()
+            switch demo {
+            case .stateComparison:
+                StateComparisonView()
+            case .taskExecution:
+                TaskExecutionView()
+            }
         }
     }
 }
