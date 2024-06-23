@@ -9,6 +9,9 @@ Collection of bits of Swift code, and experimentation demos.
 - StateObject vs ObservableObject for viewmodels: Understanding the differences between a view owning its `@StateObject`, but something else owning (and managing) an `@ObservedObject`.
 - Passing state between views: In `swiftui-passing-state-between-views` we're using `@Binding` and `@State` in order to have 2-way communication between child and parent views
 
+## Concurrency
+- `TaskExecutionView`: Time comparison between `sequential` and `parallel` task execution
+
 ## Persistence
 - [] In-memory persistence
 - [] URLCache and NSCache usage
