@@ -1,5 +1,5 @@
-# swift-demos
-Collection of Swift bits of code and demos
+# Swift demos
+Collection of bits of Swift code, and experimentation demos.
 
 ### Decorator Pattern
 
