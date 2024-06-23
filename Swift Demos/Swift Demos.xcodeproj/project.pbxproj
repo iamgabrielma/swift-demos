@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6816BE4B2C282D5C0089FCDB /* TaskExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */; };
+		6816BE4D2C282DB50089FCDB /* Tasker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816BE4C2C282DB50089FCDB /* Tasker.swift */; };
 		68CFB19C2C27DC5100D3FB14 /* Swift_DemosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFB19B2C27DC5100D3FB14 /* Swift_DemosApp.swift */; };
 		68CFB19E2C27DC5100D3FB14 /* StateComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFB19D2C27DC5100D3FB14 /* StateComparisonView.swift */; };
 		68CFB1A02C27DC5200D3FB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CFB19F2C27DC5200D3FB14 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExecutionView.swift; sourceTree = "<group>"; };
+		6816BE4C2C282DB50089FCDB /* Tasker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasker.swift; sourceTree = "<group>"; };
 		68CFB1982C27DC5100D3FB14 /* Swift Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFB19B2C27DC5100D3FB14 /* Swift_DemosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DemosApp.swift; sourceTree = "<group>"; };
 		68CFB19D2C27DC5100D3FB14 /* StateComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateComparisonView.swift; sourceTree = "<group>"; };
@@ -58,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				68CFB19B2C27DC5100D3FB14 /* Swift_DemosApp.swift */,
-				68CFB19D2C27DC5100D3FB14 /* StateComparisonView.swift */,
 				68CFB1AE2C27E7A800D3FB14 /* Views */,
 				68CFB1A92C27E71100D3FB14 /* Models */,
 				68CFB19F2C27DC5200D3FB14 /* Assets.xcassets */,
@@ -79,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				68CFB1AC2C27E76D00D3FB14 /* TestObject.swift */,
+				6816BE4C2C282DB50089FCDB /* Tasker.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,8 +90,10 @@
 		68CFB1AE2C27E7A800D3FB14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				68CFB19D2C27DC5100D3FB14 /* StateComparisonView.swift */,
 				68CFB1AA2C27E74200D3FB14 /* LifeCycleLogView.swift */,
 				68CFB1AF2C27E7C500D3FB14 /* DetailView.swift */,
+				6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,10 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6816BE4B2C282D5C0089FCDB /* TaskExecutionView.swift in Sources */,
 				68CFB1AB2C27E74200D3FB14 /* LifeCycleLogView.swift in Sources */,
 				68CFB19E2C27DC5100D3FB14 /* StateComparisonView.swift in Sources */,
 				68CFB1AD2C27E76D00D3FB14 /* TestObject.swift in Sources */,
 				68CFB1B02C27E7C500D3FB14 /* DetailView.swift in Sources */,
+				6816BE4D2C282DB50089FCDB /* Tasker.swift in Sources */,
 				68CFB19C2C27DC5100D3FB14 /* Swift_DemosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

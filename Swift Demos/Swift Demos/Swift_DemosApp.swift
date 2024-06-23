@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_DemosApp: App {
     var body: some Scene {
         WindowGroup {
-            StateComparisonView()
+            TaskExecutionView()
         }
     }
 }
