@@ -8,17 +8,20 @@
 import SwiftUI
 
 enum Demo {
+    case animations
     case stateComparison
     case taskExecution
 }
 
 @main
 struct Swift_DemosApp: App {
-    private let demo: Demo = .taskExecution
+    private let demo: Demo = .animations
     
     var body: some Scene {
         WindowGroup {
             switch demo {
+            case .animations:
+                AnimationsView()
             case .stateComparison:
                 StateComparisonView()
             case .taskExecution:
