@@ -2,8 +2,9 @@
 Collection of bits of Swift code, and experimentation demos.
 
 ## Animations
-- withAnimation
-- phaseAnimator
+- .withAnimation
+- .phaseAnimator
+- Debugging animations (SwiftTalk #405)
 
 ## Concurrency
 - `TaskExecutionView`: Time comparison between `sequential` and `parallel` task execution
