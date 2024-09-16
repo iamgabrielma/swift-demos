@@ -11,12 +11,13 @@ enum Demo {
     case animations
     case debugAnimations
     case stateComparison
+    case swiftData
     case taskExecution
 }
 
 @main
 struct Swift_DemosApp: App {
-    private let demo: Demo = .debugAnimations
+    private let demo: Demo = .swiftData
     
     var body: some Scene {
         WindowGroup {
@@ -27,9 +28,12 @@ struct Swift_DemosApp: App {
                 DebugAnimationsView()
             case .stateComparison:
                 StateComparisonView()
+            case .swiftData:
+                SwiftDataView()
             case .taskExecution:
                 TaskExecutionView()
             }
         }
+        .modelContainer(for: [Item.self])
     }
 }

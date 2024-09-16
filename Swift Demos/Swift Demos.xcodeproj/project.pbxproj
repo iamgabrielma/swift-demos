@@ -10,6 +10,8 @@
 		6816BE4B2C282D5C0089FCDB /* TaskExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */; };
 		6816BE4D2C282DB50089FCDB /* Tasker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816BE4C2C282DB50089FCDB /* Tasker.swift */; };
 		6822A68F2C8EE75300AAA172 /* DebugAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822A68E2C8EE75300AAA172 /* DebugAnimationsView.swift */; };
+		68A032D72C97F9CD00F2B0B2 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A032D62C97F9CD00F2B0B2 /* SwiftDataView.swift */; };
+		68A032D92C97FA1900F2B0B2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A032D82C97FA1900F2B0B2 /* Item.swift */; };
 		68B0D7E42C817E3C00D7432B /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0D7E32C817E3C00D7432B /* AnimationsView.swift */; };
 		68CFB19C2C27DC5100D3FB14 /* Swift_DemosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFB19B2C27DC5100D3FB14 /* Swift_DemosApp.swift */; };
 		68CFB19E2C27DC5100D3FB14 /* StateComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CFB19D2C27DC5100D3FB14 /* StateComparisonView.swift */; };
@@ -24,6 +26,8 @@
 		6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExecutionView.swift; sourceTree = "<group>"; };
 		6816BE4C2C282DB50089FCDB /* Tasker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasker.swift; sourceTree = "<group>"; };
 		6822A68E2C8EE75300AAA172 /* DebugAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAnimationsView.swift; sourceTree = "<group>"; };
+		68A032D62C97F9CD00F2B0B2 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		68A032D82C97FA1900F2B0B2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		68B0D7E32C817E3C00D7432B /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		68CFB1982C27DC5100D3FB14 /* Swift Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFB19B2C27DC5100D3FB14 /* Swift_DemosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DemosApp.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			children = (
 				68CFB1AC2C27E76D00D3FB14 /* TestObject.swift */,
 				6816BE4C2C282DB50089FCDB /* Tasker.swift */,
+				68A032D82C97FA1900F2B0B2 /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				68CFB1AF2C27E7C500D3FB14 /* DetailView.swift */,
 				6816BE4A2C282D5C0089FCDB /* TaskExecutionView.swift */,
 				6822A68E2C8EE75300AAA172 /* DebugAnimationsView.swift */,
+				68A032D62C97F9CD00F2B0B2 /* SwiftDataView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,11 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A032D72C97F9CD00F2B0B2 /* SwiftDataView.swift in Sources */,
 				6816BE4B2C282D5C0089FCDB /* TaskExecutionView.swift in Sources */,
 				68CFB1AB2C27E74200D3FB14 /* LifeCycleLogView.swift in Sources */,
 				68CFB19E2C27DC5100D3FB14 /* StateComparisonView.swift in Sources */,
 				6822A68F2C8EE75300AAA172 /* DebugAnimationsView.swift in Sources */,
 				68CFB1AD2C27E76D00D3FB14 /* TestObject.swift in Sources */,
+				68A032D92C97FA1900F2B0B2 /* Item.swift in Sources */,
 				68CFB1B02C27E7C500D3FB14 /* DetailView.swift in Sources */,
 				68B0D7E42C817E3C00D7432B /* AnimationsView.swift in Sources */,
 				6816BE4D2C282DB50089FCDB /* Tasker.swift in Sources */,
