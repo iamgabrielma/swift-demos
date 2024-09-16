@@ -14,6 +14,7 @@ Collection of bits of Swift code, and experimentation demos.
 - Observer: In `swiftui-view-viewmodel-states` we're using `@ObservableObject`, `@ObservedObject`, and `@Published` as a communication mechanism for state and data flow within SwiftUI applications
 
 ## Persistence
+- SwiftData: Creates, and inserts `Item` models into disk, and allows to update its properties.
 - [] In-memory persistence
 - [] URLCache and NSCache usage
 
